@@ -9,7 +9,7 @@ ul.checklist {
 }
 
 ul.checklist li {
-    background-image: url("images/checkbox.png");
+    background-image: url("images/checkedbox.avif");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 18px 18px;
