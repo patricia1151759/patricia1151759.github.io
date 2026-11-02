@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+ul.checklist {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.checklist li {
+    background-image: url("images/checkbox.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 18px 18px;
+    padding-left: 26px;
+    margin-bottom: 8px;
+}
+
+ul.checklist li.checked {
+    background-image: url("images/checkbox.png");
+}
