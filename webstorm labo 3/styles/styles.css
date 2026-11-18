@@ -1,0 +1,59 @@
+/* Algemeen configuratie van de body van de pagina */
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c2b36;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Main header */
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+}
+
+/* Subtitels */
+h2 {
+    color: #2980b9;
+    margin-top: 20px;
+}
+
+/* Lists (Hobbies en interests) */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Hyperlinks met effect hover */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #16a085;
+}
+
+.profile-img {
+    width: 140px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.interest-img {
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+    margin: 5px 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
